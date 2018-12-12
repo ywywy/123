@@ -1,0 +1,108 @@
+body {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	font-size: 12px;
+}
+
+/*
+控制块级元素在父元素中居中
+margin: 0 auto;
+1300px
+1000px
+magin-left: 150px;
+margin-right: 150px;
+*/
+.header {
+	height: 100px;
+	width: 1000px;
+	margin: 0 auto;
+}
+/*
+控制块级元素并列显示
+给这些块级元素添加float
+float:left;
+logo宽度 + nav宽度 < 父元素的宽度
+*/
+.logo {
+	float: left;
+}
+.nav {
+	float: left;
+	width: 740px;
+	height: 80px;
+	background: url(../images/menu.gif);
+}
+
+.nav ul {
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.nav li {
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+.nav a {
+	color: white;
+	font-weight: bold;
+}
+
+.banner {
+	height: 400px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.newslist {
+	width: 281px;
+	height: 355px;
+	background-color: white;
+	background-image: url(../images/index_nrbg.gif);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 26px;
+	margin-right: 26px;
+}
+.introduction {
+	margin-left: 12px;
+	margin-top: 10px;
+}
+.go {
+	margin-top: 10px;
+}
+
+.mylist {
+	padding: 0px;
+	margin-left: 15px;
+	margin-top: 0px;
+}
+.mylist li {
+	height: 25px;
+	line-height: 25px;
+}
+.mylist a {
+	color: #606060;
+}
+
+.mylist a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.footer {
+	height: 100px;
+	text-align: center;
+	line-height: 30px;
+	background: url(../images/footbg.gif);
+	margin-top: 50px;
+}
